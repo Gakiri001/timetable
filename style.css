@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu' sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+
+}
+
+table{
+    border: 1px solid #151314;
+    text-align: center;
+    border-radius: 7px;
+    background: linear-gradient(145deg, #2e2e2e, #373737);
+    box-shadow: 9px 9px 18px #1f1f1f, -9px -9px 18px #474747;
+}
+
+th{
+    border: 1px solid #151314;
+    color: #00ffff;
+    text-align: center;
+}
+
+td:hover, th:hover{
+    background-color: yellowgreen;
+    color: #00ffff;
+    text-align: center;
+    box-shadow: 9px 9px 18px #1f1f1f, -9px -9px 18px #474747;
+}
+
+td{
+    border: 1px solid #151314;
+    color: #00ffff;
+    text-align: center;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
